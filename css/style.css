@@ -4,6 +4,7 @@ body {
 
 #navbar {
     background: linear-gradient(90deg, rgb(135, 206, 235) 0%, rgb(51, 17, 90));
+
 }
 
 #navbar .navbar-brand {
@@ -18,6 +19,7 @@ body {
 .navbar-nav {
     margin-right: 50px;
 }
+
 
 .navbar-brand #logosm:hover {
     transition: all 0.3s ease !important;
@@ -34,11 +36,10 @@ body {
 
 #hero video {
     align-items: center;
-    margin-top: 50px;
     height: 100vh;
     width: 100%;
     background-position: absolute;
-    z-index: 10;
+    z-index: 20;
     object-fit: cover;
 }
 
@@ -55,7 +56,7 @@ body {
 
 h3 {
     text-align: center;
-    color: white;
+    color: rgb(51, 17, 90);
     
 }
 
@@ -66,11 +67,15 @@ h3 {
 }
 
 #main .content h2 {
-    color: rgb(170, 160, 147);
+    color: rgb(51, 17, 90);
 }
 
 #main .content p {
-    color: rgb(170, 160, 147);
+    color: rgb(51, 17, 90);
+}
+
+.slide .change #logoinsta {
+    filter: rgb(83, 0, 76) !important;
 }
 
 .slide .change #logoinsta:hover{ 
